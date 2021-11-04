@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(216, 110, 172);
+}
+.forma {
+    width: 100%;
+    height: 700px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Serif Display', serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Zen Kaku Gothic New', sans-serif; */
+}
+form {
+    border: 1px solid black;
+    width: 900px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+}
+.info {
+    width: 370px;
+    height: 350px;
+    background-color: thistle;
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+}
+.user_self {
+    text-align: center;
+    font-size: 160px;
+    margin-top: 10px;
+    color: rgb(199, 67, 166);
+}
+.user_text {
+    text-align: center;
+    margin-top: 23px;
+}
+.user_text p {
+    font-size: 18px;
+    font-family: 'Noto Serif Display', serif;
+}
+.user_text i {
+    font-size: 80px;
+    color: rgb(199, 67, 166);
+}
+.info_box {
+    width: 370px;
+    height: 350px;
+    background-color: thistle;
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+}
+input::placeholder {
+    text-align: center;
+}
+.info_box div {
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+}
+input {
+    margin: 10px 0;
+    width: 250px;
+    height: 30px;
+    border: none;
+}
+.button {
+    width: 400px;
+    height: 300px;
+    padding-top: 50px;
+}
+button {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
