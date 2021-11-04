@@ -24,7 +24,7 @@ form {
     border: 1px solid black;
     width: 900px;
     height: 500px;
-    margin: 20px auto;
+    margin: 30px auto;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -36,7 +36,7 @@ form {
 .info {
     width: 370px;
     height: 350px;
-    background-color: thistle;
+    background-color: rgb(216, 110, 172);
     border-radius: 25px;
     -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
     box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
@@ -45,7 +45,7 @@ form {
     text-align: center;
     font-size: 160px;
     margin-top: 10px;
-    color: rgb(199, 67, 166);
+    color: white;
 }
 .user_text {
     text-align: center;
@@ -57,12 +57,12 @@ form {
 }
 .user_text i {
     font-size: 80px;
-    color: rgb(199, 67, 166);
+    color: white;
 }
 .info_box {
     width: 370px;
     height: 350px;
-    background-color: thistle;
+    background-color: rgb(216, 110, 172);
     border-radius: 25px;
     -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
     box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
@@ -80,6 +80,9 @@ input {
     width: 250px;
     height: 30px;
     border: none;
+    background-color: white;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold;
 }
 .button {
     width: 400px;
@@ -91,4 +94,8 @@ button {
     width: 100px;
     height: 30px;
     border-radius: 10px;
+    font-family: 'Noto Serif Display', serif;
+    -webkit-box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66); 
+    box-shadow: 8px -3px 12px -5px rgba(0,0,0,0.66);
+    background-color: thistle;
 }
